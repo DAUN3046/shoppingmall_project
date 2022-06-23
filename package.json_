@@ -6,6 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "nodemon index.js --exec babel-node"
+    "start": "babel-node index.js",
+    "heroku-postbuild": "npm install"
   },
   "dependencies": {
     "@sindresorhus/is": "^4.6.0",
